@@ -1,5 +1,6 @@
 body {
   margin: 20px;
+    
 }
 
 * {
@@ -10,4 +11,45 @@ body {
   border: 2px dotted slategray;
   width: 800px;
   margin: 0 auto;
+    padding: 15px
+}
+
+nav {
+/*    margin:10px;*/
+}
+
+nav > a {
+    background-color: darkblue;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 15px 20px;
+/*    margin: 20px 20px 20px 20px;*/
+    display: inline-block;
+    
+}
+
+    header {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    padding: 20px;
+    background-color: antiquewhite
+}
+
+h1, h3 {
+    margin: 0;
+}
+
+img {
+  float:left;
+  margin-right: 15px;
+}
+
+footer {
+    border: 1px dashed black;
+    padding: 15px
+}
+
+footer h4 {
+    margin: 0 0 10px 0;
 }
