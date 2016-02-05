@@ -22,7 +22,7 @@ header {
     margin-right: auto;
 }
 
-header a {
+.pill-button {
     display: inline-block;
     background: gray;
     padding: 10px 30px 10px 30px;
@@ -31,15 +31,19 @@ header a {
     text-decoration: none;
 }
 
+.promo {
+    background: white;
+    color: black;
+    font-size: 18px;
+}
+
 /* Big Promo */
 
 #big-promo {
     padding-top: 200px;
-    background: pink;
 }
 
 .promo-message {
     width: 60%;
     padding: 50px;
-    background: green;
 }
