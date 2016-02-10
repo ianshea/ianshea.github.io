@@ -50,6 +50,27 @@ header {
 
 /* Product Features */
 
-.product-features {
+.product-features, .product-buy-it-now {
   display: flex;
+}
+
+.feature {
+  text-align: center;
+  padding: 20px;
+}
+
+.feature-image {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto 0 auto;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.product-buy-it-now {
+  align-items: center;
+}
+
+.product-info {
+  text-align: right;
 }
