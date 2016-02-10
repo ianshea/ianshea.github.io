@@ -8,7 +8,7 @@
 }
 
 .promo-container {
-    background: lightgray;
+    background: cornsilk;
 }
 
 header {
@@ -46,4 +46,10 @@ header {
 .promo-message {
     width: 60%;
     padding: 50px;
+}
+
+/* Product Features */
+
+.product-features {
+  display: flex;
 }
